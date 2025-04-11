@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Karla } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-const inter = Inter({
+const karla = Karla({
   subsets: ["latin"],
   display: "swap",
 });
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.className} transition-colors duration-300`}
+      className={`${karla.className} transition-colors duration-300`}
       suppressHydrationWarning
     >
       <head />
