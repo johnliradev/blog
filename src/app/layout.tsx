@@ -23,7 +23,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head />
-      <body className="max-w-[780px] mx-auto px-4 sm:px-6 w-full   ">
+      <body className="max-w-[780px] mx-auto px-4 sm:px-6 w-full text-lg   ">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
